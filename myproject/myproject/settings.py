@@ -82,7 +82,7 @@ DATABASES = {
         'NAME': 'myprojectdb',  # Имя базы данных
         'USER': 'myprojectuser',  # Имя пользователя
         'PASSWORD': 'myprojectpass',  # Пароль
-        'HOST': 'db',  # Имя сервиса PostgreSQL в docker-compose.yml
+        'HOST': 'host.docker.internal',
         'PORT': '5432',
     }
 }

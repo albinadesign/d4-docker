@@ -21,7 +21,7 @@
 1. Клонируйте репозиторий:
    ```bash
    git clone https://github.com/albinadesign/d4-docker.git
-   cd d4-docker
+   cd d4-docker/myproject
 Сборка и запуск контейнера
 Соберите Docker образ:
 

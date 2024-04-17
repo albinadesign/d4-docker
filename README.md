@@ -16,9 +16,11 @@ Django Docker Project
 1. Клонируйте репозиторий:
    
    git clone https://github.com/albinadesign/d4-docker.git
+   
    cd d4-docker/myproject
    
 Сборка и запуск контейнера
+
 Соберите Docker образ:
 
 docker build -t albinadesign24/d4docker .
@@ -30,9 +32,11 @@ docker run -d -p 80:80 albinadesign24/d4docker
 После этих шагов приложение будет доступно по адресу http://localhost/admin .
 
 Административная панель
+
 Для входа в административную панель Django используйте следующие учетные данные:
 
 Логин: admin
+
 Пароль: admin
 
 

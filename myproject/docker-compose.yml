@@ -11,7 +11,7 @@ services:
       POSTGRES_PASSWORD: myprojectpass
      
   web:
-    build: .
+    image: albinadesign24/d4docker:latest  # Тег latest использовать с осторожностью
     volumes:
       - .:/app
       - static_volume:/app/staticfiles/
@@ -34,6 +34,7 @@ services:
 volumes:
   postgres_data:
   static_volume:
+
 
 
 
